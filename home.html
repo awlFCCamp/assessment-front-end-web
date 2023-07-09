@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <!-- insert hello world here -->
+      <p>Hello World</p>
+      <img id="home-cat" src="./assets/cat.jpg" alt="cat picture" />
+      <p>
+        Welcome to my site. This is the home page of my web site. Use the
+        navigation links above to go to about page, profile page, and my
+        neighborhood page.
+      </p>
+      <ul>
+        <li>You are awesome! Keep up with the good work!</li>
+        <li>You are making great progress! You will see the changes soon!</li>
+        <li>You are doing amazing work!</li>
+        <li>Your are making great effort by visiting my site!</li>
+      </ul>
+
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input id="home-name" type="text" />
+
+        Message:
+        <input id="home-message" type="textarea" />
+        <p>How did you hear about our website:</p>
+        <div class="flex">
+          <label for="vehicle1"> Google</label>
+          <input type="checkbox" id="google" name="google" value="Google" />
+        </div>
+        <div class="flex">
+          <label for="vehicle2"> A friend</label><br />
+          <input type="checkbox" id="friend" name="friend" value="Friend" />
+        </div>
+        <div class="flex">
+          <label for="vehicle3"> Other</label><br /><br />
+          <input type="checkbox" id="friend" name="friend" value="Friend" />
+        </div>
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="./about.js"></script>
+  </body>
+</html>
