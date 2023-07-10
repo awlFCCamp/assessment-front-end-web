@@ -1,4 +1,3 @@
-// Get the form element
 const form = document.getElementById("myForm");
 
 // Get the modal element
@@ -40,13 +39,6 @@ form.addEventListener("submit", function (event) {
 
 // Add an event listener to the close button
 closeBtn.addEventListener("click", closeModal);
-
-/*const submitBtn = document
-  .getElementById("submit")
-  .addEventListener("click", (e) => {
-    e.preventDefault();
-    alert("You submitted form");
-  });*/
 
 const colorBtn = document.getElementById("color");
 const placeBtn = document.getElementById("place");

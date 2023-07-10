@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Neighborhood | AngelaCodes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./neighborhood.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ol>
+          <li class="crumb"><a href="./home.html">Home</a></li>
+          <li class="crumb"><a href="./profile.html">Profile</a></li>
+          <li class="crumb"><a href="./about.html">About</a></li>
+          <li class="crumb">
+            <a href="./neighborhood.html">My Neighborhood</a>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="left">
+          <h1>My Houston Neighborhood</h1>
+          <p>
+            I live in the city of Houston. It is a beautiful southern city.
+            Being one of the major cities in United States, Houston has many
+            parks and resturants that are worth to pay a visit. Below I list few
+            city parks that you and your family should make a stop while you
+            visit. There are many resturants that you could try out as well. You
+            can find in the resturants section that those are well rated by
+            visitors. click the random suggestion button, a random but well
+            rated resturant will display for you.
+          </p>
+        </div>
+        <div class="right">
+          <img src="./assets/houston.jpg" alt="Houston" />
+        </div>
+      </section>
+      <section class="parks">
+        <h3>Beautiful Parks You Should Not Miss</h3>
+        <p>
+          There are many parks around Houston area. Following three parks I
+          would highly recommend that you should pay a visit. All parks are
+          family friendly. There are many attractions at these park. You can
+          spend a day at each park and the cost is free. Put on sunscreen, take
+          your water bottle and bring your entire family to our geogeous park.
+          Click the each button below, it will take you to the website for each
+          park. Read before you go.
+        </p>
+        <ul class="flex">
+          <li>
+            <a href="https://www.discoverygreen.com/" class="btn"
+              >Discovery Green</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://uptown-houston.com/experience/parks/waterwall-park/"
+              class="btn"
+              >Gerald D. Hines Waterwall Park</a
+            >
+          </li>
+          <li>
+            <a href="https://www.heritagesociety.org/" class="btn"
+              >Sam Houston Park</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="resturants">
+        <h3>Best resturants You Should Visit</h3>
+        <ul class="flex">
+          <li>
+            <a href="https://fegesbbq.com/" class="btn"
+              >Feges BBQ Spring Branch</a
+            >
+          </li>
+          <li>
+            <a href="https://www.squabletime.com/" class="btn">Squable</a>
+          </li>
+          <li><a href="https://www.dagamahtx.com/" class="btn">Da Gama</a></li>
+          <li><a href="https://www.truthbbq.com/" class="btn">Truth BBQ</a></li>
+          <li>
+            <a href="https://www.bludornrestaurant.com/" class="btn"
+              >Bludorn Restaurant</a
+            >
+          </li>
+          <li>
+            <a href="https://ninfas.com/" class="btn"
+              >The Original Ninfa's on Navigation</a
+            >
+          </li>
+        </ul>
+        <button class="btn" id="resturant-btn">
+          Suggest A Random Resturant
+        </button>
+      </section>
+      <section id="suggestion"></section>
+    </main>
+    <footer>
+      <p>Angela Codes <i class="fa-solid fa-heart fa-beat fa-1x"></i></p>
+    </footer>
+    <script src="./neighborhood.js"></script>
+  </body>
+</html>
